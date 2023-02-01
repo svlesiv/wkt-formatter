@@ -1,0 +1,30 @@
+{
+  "name": "wkt-formatter",
+  "version": "1.0.0",
+  "description": "Formats WKT string to add a new line and tabs for each WKT property.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svlesiv/wkt-formatter.git"
+  },
+  "keywords": [
+    "wkt",
+    "formatter",
+    "parser"
+  ],
+  "author": "Svitlana Lesiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svlesiv/wkt-formatter/issues"
+  },
+  "homepage": "https://github.com/svlesiv/wkt-formatter#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+  "engines": {
+    "node": ">= 16.17.0"
+  }
+}
