@@ -1,6 +1,6 @@
 {
   "name": "wkt-formatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Formats WKT string to add a new line and tabs for each WKT property.",
   "main": "index.js",
   "scripts": {
