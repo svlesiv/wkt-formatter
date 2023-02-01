@@ -23,10 +23,3 @@ PROJCS["NAD_1927_StatePlane_New_York_East_FIPS_3101",
 	PARAMETER["Latitude_Of_Origin", 40.0], 
 	UNIT["Foot_US", 0.3048006096012192]]
 ```
-
-## Setup
-* Clone `https://github.com/svlesiv/wkt-formatter.git` repository
-* `npm install`
-  
-## Testing
-`npm test`

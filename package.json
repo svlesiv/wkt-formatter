@@ -21,9 +21,6 @@
     "url": "https://github.com/svlesiv/wkt-formatter/issues"
   },
   "homepage": "https://github.com/svlesiv/wkt-formatter#readme",
-  "devDependencies": {
-    "jest": "^29.4.1"
-  },
   "engines": {
     "node": ">= 16.17.0"
   }
