@@ -49,7 +49,7 @@ function formatWKTString(inputStr) {
     }
 
     // Slice the string after populating a part of the output string
-    //to be able to search for duplicate properties.
+    // to be able to search for duplicate properties.
     str = str.slice(curPos + properties[i].length - 1);
   }
 
