@@ -24,5 +24,5 @@ PROJCS["NAD_1927_StatePlane_New_York_East_FIPS_3101",
 	UNIT["Foot_US", 0.3048006096012192]]
 ```
 
-## Setup
+## Installation
 `npm install --production wkt-formatter`
