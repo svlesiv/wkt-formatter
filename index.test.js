@@ -1,4 +1,4 @@
-const formatWKTString = require("./index");
+import formatWKTString from "./index.js";
 
 describe("formatWKTString", () => {
   const tests = [

@@ -4,7 +4,7 @@
  * @param {string} inputStr - WKT string
  * @returns formatted string
  */
-function formatWKTString(inputStr) {
+export default function formatWKTString(inputStr) {
   const properties = inputStr.match(/\b\w+['[']/g); // ['PROJCS[', 'TOWGS84[', ...]
 
   let str = inputStr.replaceAll(/\n\s*/g, "").replaceAll(/,\s*/g, ", "); // string that will be mutated
@@ -55,5 +55,3 @@ function formatWKTString(inputStr) {
 
   return outputStr;
 }
-
-module.exports = formatWKTString;

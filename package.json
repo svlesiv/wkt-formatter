@@ -1,6 +1,6 @@
 {
   "name": "wkt-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Formats WKT string to add a new line and tabs for each WKT property.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,10 @@
   "homepage": "https://github.com/svlesiv/wkt-formatter#readme",
   "engines": {
     "node": ">= 16.17.0"
-  }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "jest": "^29.4.1"
+  },
+  "type": "module"
 }
