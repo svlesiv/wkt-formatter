@@ -2,7 +2,11 @@
 Formats WKT string to add a new line and tabs for each WKT property.
 
 ## Installation
-`npm install --production wkt-formatter`
+### npm
+`npm install wkt-formatter`
+
+### yarn
+`yarn add wkt-formatter`
 
 ## Usage
 Import `formatWKTString` function to the file where you would like to use it.
