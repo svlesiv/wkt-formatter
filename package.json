@@ -2,7 +2,7 @@
   "name": "wkt-formatter",
   "version": "1.0.6",
   "description": "Formats WKT string to add a new line and tabs for each WKT property.",
-  "main": "index.js",
+  "main": "./mjs/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -28,5 +28,11 @@
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "jest": "^29.4.1"
   },
-  "type": "module"
+  "exports": {
+    ".": {
+      "import": "./mjs/index.js",
+      "require": "./cjs/index.js",
+      "default": "./mjs/index.js"
+    }
+  }
 }
