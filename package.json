@@ -30,7 +30,8 @@
   },
   "exports": {
     "import": "./index.js",
-    "require": "./index-require.js",
+    "require": "./index-require.cjs",
     "default": "./index.js"
-  }
+  },
+  "type": "module"
 }
